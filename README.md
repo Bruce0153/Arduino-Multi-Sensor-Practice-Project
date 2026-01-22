@@ -17,6 +17,21 @@ It is **not intended to be a practical or commercial product**, but rather a han
 
 ---
 
+## Programming Methods
+
+This project supports **two programming approaches**:
+
+### 1. Arduino Code (C/C++)
+- Suitable for users with basic programming experience
+- Focuses on logic structure and modular testing
+
+### 2. Mixly Visual Programming
+- Block-based programming environment
+- No prior coding knowledge required
+- Suitable for beginners, teaching demonstrations, and entry-level practice
+
+---
+
 ## Project Purpose
 
 The main purpose of uploading this project is:
@@ -39,6 +54,15 @@ The project consists of several independent modules:
 - OLED display output
 
 Each module was first tested separately, and then combined into simple integrated versions.
+
+---
+
+## How to Use
+
+1. Choose either **Arduino IDE** or **Mixly**
+2. Load the corresponding `.ino` or `.mix` file
+3. Upload the program to the Arduino board
+4. Observe sensor readings and simple output behavior
 
 ---
 
