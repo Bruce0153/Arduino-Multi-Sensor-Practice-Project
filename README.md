@@ -42,34 +42,21 @@ Each module was first tested separately, and then combined into simple integrate
 
 ---
 
-## Project Structure
+## Notes
 
-Project
-│
-├─ test/                         # 功能测试代码
-│  ├─ 1.1_temp/                  # 水温检测测试
-│  │  └─ 1.1_temp.ino
-│  │
-│  ├─ 1.2_light/                 # 水质 / 光学检测测试
-│  │  └─ 1.2_light.ino
-│  │
-│  ├─ 1.3_food/                  # 喂食提醒模块测试
-│  │  └─ 1.3_food.ino
-│  │
-│  ├─ test_oled/                 # OLED 基础测试
-│  │  └─ test_oled.ino
-│  │
-│  ├─ test_oled_front/           # OLED 前端显示测试
-│  │  └─ test_oled_front.ino
-│  │
-│  └─ test_temp/                 # 温度模块单独测试
-│     └─ test_temp.ino
-│
-├─ 1.mix                         # 功能整合程序（版本 1）
-├─ 2.mix                         # 功能整合程序（版本 2）
-├─ 3.mix                         # 功能整合程序（最终版）
-│
-├─ 温度.txt                      # 水温记录数据示例
-├─ 浊度.txt                      # 水质（浊度）记录数据示例
-│
-└─ README.md
+- This project focuses on **learning and practice**
+- The logic and structure are intentionally kept simple
+- Code readability and modular testing were prioritized over optimization
+- The system is not designed for long-term deployment
+
+---
+
+## About This Repository
+
+This repository exists mainly as a **record of hands-on experience**.
+
+The project itself is simple and limited, but it reflects:
+- real wiring
+- real debugging
+- real testing process
+
